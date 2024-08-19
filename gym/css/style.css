@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*GENERALES*/
+html,
+body{
+    font-family: 'Monserrat', sans-serif;
+}
+h1,
+h2{
+    font-family: 'Catamaran', sans-serif !important;
+}
+
+.bg-nav{
+    background-color: #ff6d2d ;
+}
+.btn-orange{
+    background-color: #ff6d2d;
+    border: 0;
+    color: #fff;
+}
+.btn-orange:hover{
+    background-color: #fff;
+    color: #ff6d2d;
+}
+.btn-white{
+    background-color: #fff;
+    border: 0;
+    color: #ff6d2d;
+}
+.btn-white:hover{
+    background-color: #000;
+    color: #fff;
+}
+.text-orange{
+    color: #ff6d2d;
+}
+.pt-6{
+    padding: 120px;
+}
+.py-6{
+    padding: 80px 0;
+}
+
+/*HEADER*/
+.header{
+    background-image: url('/gym/images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*CLASSES*/
+.classes{
+    background-image: url('/gym/images/background-secondary.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*FOOTER*/
+footer a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}

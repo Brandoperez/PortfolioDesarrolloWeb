@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/*ESTILOS PRINCIPALES*/
+body,
+html{
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    background-color: #024454;
+}
+.header{
+    background: url('../../ideasNewYear/image/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*ESTILOS REUTILIZABLES*/
+.py-6{
+    padding: 120px;
+}
+.img-border{
+    border: 7px solid #f5ce65;
+}
+.footer a{
+    color: #ffffff;
+    text-decoration: none;
+}
+/*ESTILOS BOOSTRAPT*/
+.btn-primary{
+    background: #f5ce65!important;
+    border: 0;
+}
+.btn-primary:hover{
+    background: #fca857;
+}

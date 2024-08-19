@@ -1,0 +1,45 @@
+/*GENERALES*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Taprom&display=swap');
+body,
+html{
+    font-family: 'Monserrate', sans-serif;
+}
+.new-year{
+background: url('../../newYear/image/background.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.p-6{
+    padding: 120px;
+}
+.border-primary{
+    border: 10px solid #cfa674!important;
+}
+hr{
+    background-color: #cfa674!important;
+    opacity: 1;
+    height: 3px;
+    width: 100px;
+    border: 0;
+}
+/*BOOTSTRAP*/
+.fst-italic{
+    font-family: 'Taprom', sans-serif;
+    font-size: 6rem !important;
+    margin-top: -50px;
+}
+.text-primary{
+    color: #cfa674!important;
+}
+.display-1{
+    font-size: 9rem;
+}
+.btn-primary{
+    background: #cfa674!important;
+    border: none;
+}
+.btn-primary:hover{
+    background: #4d4d4d!important;
+}

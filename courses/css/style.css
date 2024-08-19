@@ -1,0 +1,51 @@
+/*ESTILOS PRINCIPALES*/
+body,
+html{
+    color: #3c3456!important;
+}
+/*ESTILOS REUTILIZABLES*/
+.text-primary{
+    color: #4c6fe1!important;
+}
+.text-secondary{
+    color: #3c3456!important;
+}
+.btn-primary{
+    background: #4c6fe1!important;
+    border: 0;
+}
+.btn-primary:hover{
+    background: #3c3456!important;
+}
+.bg-warning{
+    background-color: #f9f9f9!important;
+}
+.bg-primary{
+    background: #4c6fe1!important;
+}
+/*ESTILOS PERSONALIZADOS*/
+.py-6{
+    padding: 120px;
+}
+.py-7{
+    padding: 80px;
+}
+.about img{
+    width: 50px;
+}
+.time{
+    margin-top: -30px;
+}
+.user{
+    width: 50px;
+    height: 50px;
+}
+.header{
+    background-image: url('../../courses/images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer a{
+    text-decoration: none;
+}
